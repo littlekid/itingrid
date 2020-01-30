@@ -1,0 +1,9 @@
+p {
+  max-width: 42rem;
+  font-size: 1.3rem;
+  line-height: 130%;
+}
+
+#hello-reason {
+  margin: 2rem auto 1rem;
+}
