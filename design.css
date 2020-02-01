@@ -5,13 +5,6 @@ body {
   padding-right: 1.8rem;
 }
 
-#contribute p {
-  font-size: 1.1rem;
-  max-width: 100%;
-  margin-bottom: 4rem;
-  float: right;
-}
-
 #hello-reason {
   margin: 2rem auto 1rem;
   max-width: 42rem;
@@ -27,4 +20,92 @@ p {
   max-width: 42rem;
   font-size: 1.3rem;
   line-height: 130%;
+}
+
+@media screen and (min-device-width: 800px) and (min-width: 1284px) and (min-height: 440px) {
+  a {
+    color: #2a66ee;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  body {
+    margin-top: 110vh;
+    padding-bottom: 5vh;
+  }
+
+  #contribute {
+    margin: calc(3rem + 13vh) auto 0;
+    max-width: 30rem;
+    font-family: monospace;
+  }
+
+  #contribute p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45vw;
+    height: 100vh;
+    background: #111;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 4vw;
+    box-sizing: border-box;
+  }
+
+  #hackathons {
+    font-size: 170%!important;
+  }
+
+  #thegrid {
+    position: absolute;
+    left: 2.5rem;
+    bottom: 1.1rem;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    max-width: 100%;
+  }
+
+  #thegrid h2 {
+    font-weight: 400;
+    margin: 5px 0;
+    font-size: 120%;
+    line-height: 130%;
+  }
+
+  #thegrid a {
+    color: #222;
+  }
+
+  #thegrid a:hover {
+    color: #2a66ee;
+  }
+
+  #thegrid h2:last-child {
+    margin-bottom: 0;
+  }
+
+  #thegridcontainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+    z-index: -1;
+  }
+
 }
