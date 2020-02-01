@@ -11,7 +11,6 @@ body {
 }
 
 #thegrid {
-  padding-top: 3rem;
   margin: 1rem auto 4rem;
   max-width: 500px;
 }
@@ -20,6 +19,33 @@ p {
   max-width: 42rem;
   font-size: 1.3rem;
   line-height: 130%;
+}
+
+#hackathons {
+  font-size: 170%!important;
+}
+
+
+@media screen and (max-device-width: 600px) {
+
+  h1 {
+    margin: 13vh 0 0
+  }
+
+  #thegrid h2 {
+    margin: 0 0 2px;
+  }
+
+  #thegrid a {
+    text-decoration: none;
+  }
+
+  #contribute {
+    margin: 5rem 0 2rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: .5rem 0;
+  }
 }
 
 @media screen and (min-device-width: 800px) and (min-width: 1284px) and (min-height: 440px) {
@@ -60,10 +86,6 @@ p {
     line-height: 100vh;
     font-size: 4vw;
     box-sizing: border-box;
-  }
-
-  #hackathons {
-    font-size: 170%!important;
   }
 
   #thegrid {
