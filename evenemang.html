@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Evenemang i IT-Sverige | Ingrid</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
   <h1>Evenemang</h1>
 
-  <p>Konferenser, hackathons, utbildningar, föreläsningar, meetups, Startup-evenemang m.m.m. :)</p>
+  <p>Konferenser, hackathons, utbildningar, föreläsningar, meetups, Startup-evenemang...</p>
 
-  <br><br><br><br><br><br>
+  <br><br><br><br>
   <h2>Hack for Södertälje</h2>
   <p>Södertälje, 31jan - 1 februari</p>
   <p><i>hackathon, öppna data</i></p>
@@ -38,6 +39,15 @@
   <p>Tiden är knapp och bästa lösningarna belönas med presentkort på totalt 5000 kr. Bästa idé vinner 2500 kr och bästa tech-lösning 2500 kr.</p>
   <p><a href="https://morehack.se/#/apply/" target="_blank">Anmälan</a></p>
 
+  <h2>Sweden Demo Day</h2>
+  <p>Stockholm (Stockholmmässan), 2 april 2020</p>
+  <p><i>startups, demo, idéer, stort, hitta nya användare, träffa investerare</i></p>
+  <h3>Visa upp din nya affärsidé!</h3>
+  <p>Är du en kreativ problemlösare och har kommit på en fantastiskt bra lösning för något?<br>
+  Kom och visa upp den på Sweden Demo Day! Du får en 1m*2m stor yta att skriva på (eller sätta upp färdiga lappar/affischer.. designa den som du vill!</p>
+  <p>Besökare (potentiella framtida partners och medarbetare, investerare och kanske framtida ambassadörer och kunder (!) går runt och spanar in alla lösningar som presenteras!</p>
+  <p><a href="https://www.swedendemoday.com/" target="_blank">Mer information och anmälan</a></p>
+
 
 <style>
 body {
@@ -49,10 +59,14 @@ body {
 
 h1 {
   font-size: 4rem;
-  margin-top: calc(4rem + 13vh);
-  margin-bottom: 4rem;
+  margin-top: calc(5rem + 13vh);
   font-family: monospace;
   text-align: center;
+  margin-bottom: 0;
+}
+
+h1 + p {
+  margin-bottom: 2rem;
 }
 
 h2 {
@@ -81,6 +95,23 @@ p {
   color: #333;
   font-size: 1.3rem;
   line-height: 130%;
+}
+
+
+@media screen and (max-device-width: 600px) {
+  h1 {
+    text-align: left;
+    font-family: serif;
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-family: serif
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
 }
 </style>
 
