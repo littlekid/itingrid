@@ -5,6 +5,10 @@ body {
   padding-right: 1.8rem;
 }
 
+#calendar, #hackathons {
+  font-size: 180%!important;
+}
+
 #hello-reason {
   margin: 2rem auto 1rem;
   max-width: 42rem;
@@ -20,11 +24,6 @@ p {
   font-size: 1.3rem;
   line-height: 130%;
 }
-
-#hackathons {
-  font-size: 170%!important;
-}
-
 
 @media screen and (max-device-width: 600px) {
 
@@ -101,8 +100,16 @@ p {
   #thegrid h2 {
     font-weight: 400;
     margin: 5px 0;
-    font-size: 120%;
+    font-size: 130%;
     line-height: 130%;
+  }
+
+  #thegrid h2#hackathons {
+    margin-bottom: 0;
+  }
+
+  #thegrid h2#hackathons + h2 {
+    margin-top: 2px;
   }
 
   #thegrid a {
