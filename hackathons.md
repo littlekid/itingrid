@@ -1,3 +1,31 @@
+## Klimathack #3
+* Stockholm
+* 2020-02-01
+
+### Ett hackathon med fokus på klimatkrisen.
+Vad skapas på detta hack?
+
+Hacket fokuserar på information om klimatkrisen: vad är det här med klimatförändringar, varför är det en kris, hur bråttom är det och hur påverkar detta mig som bor i Sverige?
+
+Varje lag väljer en målgrupp och strävar efter att skapa information som når fram till denna målgrupp. Hela hacket fokuserar på detta och på slutet får lagen chans att visa upp sina alster.
+[Anmälan](https://klimathack.se)
+
+
+## Hack the pressure
+* Piteå
+* 2020-02-15
+
+### Hur kan vi genom innovation motverka kronisk stress och utbrändhet?
+Är du en kreativ problemlösare eller tycker du om kodning? Har du en passion för att utforska, experimentera och skapa prototyper för att hitta de bästa lösningarna? Om svaret på dessa frågor är ja, är detta eventet för dig!</p>
+
+Årets utmaning fokuserar på innovationer som motverkar kronisk stress och utbrändhet. Under det senaste decenniet har utbrändhet ökat och idag handlar var femte sjukskrivning om stress. I åldern 25-29 år har sjukantalet gått upp med 144% under de senaste sju åren.</p>
+
+Tiden är knapp och bästa lösningarna belönas med presentkort på totalt 5000 kr. Bästa idé vinner 2500 kr och bästa tech-lösning 2500 kr.</p>
+
+[Anmälan](https://morehack.se/#/apply)
+
+
+
 ## Hack for Södertälje
 * Södertälje
 * 2020-01-31 - 2020-02-01
