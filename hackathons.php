@@ -1,3 +1,19 @@
+<?php
+include "parsedown/Parsedown.php";
+$Parsedown = new Parsedown();
+
+function listCreator($htmlContentWithHeadlines, $id = ""){
+  $list_items = '<li>'.str_replace("<h2", "</li><li><h2", $htmlContentWithHeadlines).'</li>';
+  $list = '<ul id="'.$id.'">'.$list_items.'</ul>';
+  return $list;
+}
+
+$hackathons_md   = file_get_contents("hackathons.md");
+$hackathons_html = $Parsedown->text($hackathons_md);
+$hackathons_list = listCreator($hackathons_html, "hackathons-list");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,18 +21,8 @@
   <title>Hackathons i Sverige 2020</title>
 </head>
 <body>
-
   <h1>Hackathons</h1>
-<div class="js-event">
-  <h2>Hack for Södertälje</h2>
-  <p class="js-location">Södertälje</p><p>, 31jan - 1 februari</p>
-  <p>24 -timmars Hackathon på Science Week. Var med och skapa framtidens Södertälje City 2030.</p>
-  <p>Kom med din kunskap och dina idéer för att skapa framtidens bästa centrum, för människor och för planeten. Hack for Södertälje är för dig som vill utveckla dina färdigheter inom problemlösning på ett nytt och roligt sätt och samtidigt bidra till en hållbar framtid. Ta tillfället att få jobba tillsammans i en lekfull miljö där annorlunda är bra och tankar utanför boxen uppmuntras!</p>
-  <p>Att delta i Södertälje Hackathon 2020 innebär att du tillsammans med ett team kommer att arbeta utifrån en eller flera problemställningar för att skapa framtidens Södertälje City. Under 24 timmar tar ni fram en vision om hur ert hållbara Södertälje City ser ut 2030. Bidraget presenteras för en  jury som utser vinnare i de olika priskategorierna.</p>
-  <p><a href="https://hackathon.sodertalje.se/" target="_blank">Läs mer på hackathon.sodertalje.se</a>.</p>
-  <p>Inga särskilda förkunskaper krävs, exempelvis inom programmering, men vi ser gärna att du är en nyfiken lagspelare med intresse för digitalisering och hållbarhet! Så vill du vara med och påverka hur framtidens Södertälje City ska se ut och samtidigt nätverka och dela kunskap i en spännande miljö? Kom, det blir kul!</p>
 
-</div>
 <div class="js-event">
   <h2>Klimathack #3</h2>
   <p class="js-location">Stockholm</p><p> 1 februari 2020</p>
@@ -38,19 +44,6 @@
 
 </div>
 
-  <h2>Space Data Hackathon 2020</h2>
-  <p>21-22 februari, Göteborg &amp; Luleå</p>
-  <p>Läs mer på <a href="https://space-data-hackathon.confetti.events/">space-data-hackathon.confetti.events</a>.</p>
-
-  <h2>Hack for Sweden 2020</h2>
-  <p><a href="https://hackforsweden.se/">Håll koll på hackforsweden.se</a> för att se när nästa Hack for Sweden blir av. Svenska myndigheter arrangerar ett hackathon tillsammans och visar upp data de har gjort öppet tillgänglig för allmänheten att använda i egna (komersiella och icke-kommersiella) projekt!</p>
-
-  <h2>Trainhack 2020</h2>
-  <p>Planering pågår. Du kan läsa om <a href="https://trainhack.com">förra årets trainhack</a> på trainhack.com.<br>
-  <p>Tidigare års sidor finns på trainhack.com/2018, /2017 o.s.v. :]</p>
-  <p>Hör av dig till <a href="mailto:niina@46elks.com">Niina</a> på 46elks.com eller kom till Trainhack-slacken om du vill vara med och planera.</p>
-
-
  <div>
 	<select id="js-location-select" multiple onchange="UserSettings.editLocations()">
 	  <option value="All">Visa alla</option>
@@ -62,7 +55,7 @@
 
 <p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
 
-
+<?php echo $hackathons_list; ?>
 
 <style>
 body {
@@ -70,6 +63,17 @@ body {
   margin: 2rem auto 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+#hackathons-list {
+  margin: calc(3rem + 13vh) 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#hackathons-list li:not(:first-child) {
+  margin-top: 5rem;
 }
 
 h1 {
@@ -82,7 +86,7 @@ h1 {
 
 h2 {
   font-size: 2.8rem;
-  margin-top: 4rem;
+  margin-top: 4.2rem;
   font-family: sans-serif;
   color: #222;
   font-family: monospace;
@@ -95,6 +99,19 @@ h2:first-of-type {
 
 h2, h3 {
   margin-bottom: 2px;
+}
+
+h2 + ul {
+  margin: 0 0 2rem;
+  padding: 0;
+}
+
+h2 + ul li {
+  display: inline;
+}
+
+h2 + ul li:first-child:not(:last-child):after {
+  content: ", ";
 }
 
 h3 {
