@@ -22,6 +22,10 @@ body {
   letter-spacing: -.04rem;
 }
 
+#filter-hackathon:checked ~ .calendar-item:not([data-type*="hackathon"]) {
+  display: none;
+}
+
 .calendar-item {
   margin-bottom: calc(2rem + 5vh);
 }
