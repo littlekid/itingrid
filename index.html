@@ -17,12 +17,12 @@
   </header>
 
   <div id="calendar">
-    <label><input type="checkbox" value="ticket"> biljettsläpp</label>
-    <label><input type="checkbox" value="call-for-papers"> call for papers </label>
-    <label><input type="checkbox" value="deadline"> deadline</label>
-    <label><input type="checkbox" value="hackathon"> hackathon 👩🏽‍💻</label>
-    <label><input type="checkbox" value="conference"> konferens </label>
-    <label><input type="checkbox" value="meetup"> meetup </label>
+    <input type="checkbox" value="ticket"> <label>biljettsläpp</label>
+    <input type="checkbox" value="call-for-papers"> <label>call for papers</label>
+    <input type="checkbox" value="deadline"> <label>deadline</label>
+    <input type="checkbox" value="hackathon" id="filter-hackathon"> <label for="filter-hackathon">hackathon 👩🏽‍💻</label>
+    <input type="checkbox" value="conference"> <label>konferens</label>
+    <input type="checkbox" value="meetup"> <label>meetup</label>
 
     <br><br><br>
 
@@ -36,7 +36,7 @@
       <p><a href="https://foss-north.se/events/2020/callforpapers/" target="_blank">Läs mer på foss-north.se</a></p>
     </div>
 
-    <div class="calendar-item">
+    <div class="calendar-item" data-type="hackathon">
       <h2>Hack the pressure</h2>
       <p>Piteå 15 februari 2020</p>
       <p><i>hackathon, hälsa, hårdvara</i></p>
@@ -49,36 +49,57 @@
 
     <span style="display: block;">Mars</span>
 
+
+    <div class="calendar-item" data-type="hackathon">
+      <h2>Cirkulär ekonomi</h2>
+      <p>2 mars</p>
+      <p class="tags">mini-hack</p>
+      <h3>Hur kan vi genom innovation motverka kronisk stress och utbrändhet?</h3>
+      <p>11:30-16:30. Plats: Gymnasieskolan Spyken.</p>
+      <p>Målgrupp: Åk 3 gymnasiet samt studenter vid Lunds universitet.</p>
+      <p><a href="https://service.lund.se/KF_80" target="_blank">Anmälan</a></p>
+    </div>
+
     <div class="calendar-item">
       <h2>Foss North</h2>
       <p>Göteborg 29 mars till 1 april</p>
       <p>foss-north is a free / open source conference covering both software and hardware from the technical perspective. We provide a meeting place for the Nordic foss communities and will bring together great speakers with great audiences. We are constantly looking for partners, speakers, sponsors, and events around FOSS in the Nordic region. If you want to be listed here, please contact us at info -at- foss-gbg.se.</p>
     </div>
 
-  <span style="display: block;">April</span>
-  <h2>Sweden Demo Day</h2>
-  <p>Stockholm (Stockholmmässan), 2 april 2020</p>
-  <p><i>startups, demo, idéer, stort, hitta nya användare, träffa investerare</i></p>
-  <h3>Visa upp din nya affärsidé!</h3>
-  <p>Är du en kreativ problemlösare och har kommit på en fantastiskt bra lösning för något?<br>
-  Kom och visa upp den på Sweden Demo Day! Du får en 1m*2m stor yta att skriva på (eller sätta upp färdiga lappar/affischer.. designa den som du vill!</p>
-  <p>Besökare (potentiella framtida partners och medarbetare, investerare och kanske framtida ambassadörer och kunder (!) går runt och spanar in alla lösningar som presenteras!</p>
-  <p><a href="https://www.swedendemoday.com/" target="_blank">Mer information och anmälan</a></p>
+    <span style="display: block;">April</span>
 
-  <span style="display: block;">Maj</span>
-  <h2>STOCKHOLM TECH JOB FAIR BY TECHMEETUPS</h2>
-  <p>Stockholm, 28 maj</p>
-  <p>Läs mer <a href="https://www.eventbrite.co.uk/e/stockholm-tech-job-fair-spring-2020-by-techmeetups-tickets-76819987651">eventbrite</a>.</p>
-
-  <h2>Code BEAM STO 2020</h2>
-  <p>Stockholm, 28-29 maj</p>
-  <p>Läs mer hos <a href="https://www.eventbrite.co.uk/e/code-beam-sto-2020-tickets-90357035325">eventbrite</a>.</p>
+    <div class="calendar-item">
+      <h2>Sweden Demo Day</h2>
+      <p>Stockholm (Stockholmmässan), 2 april 2020</p>
+      <p><i>startups, demo, idéer, stort, hitta nya användare, träffa investerare</i></p>
+      <h3>Visa upp din nya affärsidé!</h3>
+      <p>Är du en kreativ problemlösare och har kommit på en fantastiskt bra lösning för något?<br>
+      Kom och visa upp den på Sweden Demo Day! Du får en 1m*2m stor yta att skriva på (eller sätta upp färdiga lappar/affischer.. designa den som du vill!</p>
+      <p>Besökare (potentiella framtida partners och medarbetare, investerare och kanske framtida ambassadörer och kunder (!) går runt och spanar in alla lösningar som presenteras!</p>
+      <p><a href="https://www.swedendemoday.com/" target="_blank">Mer information och anmälan</a></p>
+    </div>
 
 
+    <div class="calendar-item">
+      <h2>SKåne Innovation Days</h2>
+      <p>15 -16 april</p>
+      <p>Region Skåne bjuder för sjunde gången in till Skåne Innovation Day – nytt för årets upplaga är att de växlar upp och utökar till två heldagar med olika koncept, mötesformat och mer fokus på interaktion och dialog. Även platsen är ny då eventet efter 4 år i Varvsstaden, landar in I Malmö, Folkets Park och blir en del av allt spännande som händer under Innocarnival Skåne.</p>
+      <a href="https://www.krinova.se/event/skane-innovation-days-2020/">Läs mer</a>
+    </div>
+
+    <span style="display: block;">Maj</span>
+    <div class="calendar-item">
+      <h2>STOCKHOLM TECH JOB FAIR BY TECHMEETUPS</h2>
+      <p>Stockholm, 28 maj</p>
+      <p>Läs mer <a href="https://www.eventbrite.co.uk/e/stockholm-tech-job-fair-spring-2020-by-techmeetups-tickets-76819987651">eventbrite</a>.</p>
     </div>
 
     <div class="calendar-item">
+      <h2>Code BEAM STO 2020</h2>
+      <p>Stockholm, 28-29 maj</p>
+      <p>Läs mer hos <a href="https://www.eventbrite.co.uk/e/code-beam-sto-2020-tickets-90357035325">eventbrite</a>.</p>
     </div>
+
   </div>
 
   <div id="hello-reason">
