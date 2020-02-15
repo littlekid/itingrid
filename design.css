@@ -5,47 +5,30 @@ body {
   padding-right: 1.8rem;
 }
 
-#bara-en-till {
-  margin: 25vh 0 1rem;
-  text-align: center;
-  border-top: 1px solid #ddd;
-  padding-top: 1rem;
+#calendar h2 {
+  margin-bottom: 2px;
 }
 
-#bara-en-till h2 {
-  margin-bottom: 0;
-}
-
-#bara-en-till h2 + p {
+#calendar h2 + p {
   margin-top: 2px;
-  font-size: 1.1rem;
-  max-width: 100%;
+  margin-bottom: 2px;
 }
 
-#bara-en-till ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+#calendar h2 + p + .tags {
+  margin-top: 2px;
+  font-size: 100%;
+  color: #333;
+  font-family: monospace;
+  letter-spacing: -.04rem;
 }
 
-#bara-en-till li {
-  display: inline-block;
-  font-size: 1.1rem;
-  margin-right: 4px;
-}
-
-#calendar, #hackathons {
-  font-size: 180%!important;
+.calendar-item {
+  margin-bottom: calc(2rem + 5vh);
 }
 
 #hello-reason {
   margin: 2rem auto 1rem;
-  max-width: 42rem;
-}
-
-#thegrid {
-  margin: 1rem auto 4rem;
-  max-width: 500px;
+  padding-right: 5rem;
 }
 
 p {
@@ -58,14 +41,6 @@ p {
 
    {
     margin: 13vh 0 0
-  }
-
-  #thegrid h2 {
-    margin: 0 0 2px;
-  }
-
-  #thegrid a {
-    text-decoration: none;
   }
 
   #contribute {
@@ -89,6 +64,16 @@ p {
   body {
     margin-top: 110vh;
     padding-bottom: 5vh;
+    padding-right: 55vw;
+  }
+
+  #calendar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55vw;
+    box-sizing: border-box;
+    padding: 2rem;
   }
 
   #contribute {
@@ -126,56 +111,6 @@ p {
     font-size: 2vw;
     font-family: sans-serif;
     font-weight: 300;
-  }
-
-  #thegrid {
-    position: absolute;
-    left: 2.5rem;
-    bottom: 1.1rem;
-    margin: 0;
-    padding: 0;
-    font-family: monospace;
-    max-width: 100%;
-  }
-
-  #thegrid h2 {
-    font-weight: 400;
-    margin: 5px 0;
-    font-size: 130%;
-    line-height: 130%;
-  }
-
-  #thegrid h2#hackathons {
-    margin-bottom: 0;
-  }
-
-  #thegrid h2#hackathons + h2 {
-    margin-top: 2px;
-  }
-
-  #thegrid a {
-    color: #222;
-  }
-
-  #thegrid a:hover {
-    color: #2a66ee;
-  }
-
-  #thegrid h2:last-child {
-    margin-bottom: 0;
-  }
-
-  #thegridcontainer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 55vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border-bottom: 1px solid #ddd;
-    z-index: -1;
   }
 
 }
