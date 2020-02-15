@@ -5,6 +5,35 @@ body {
   padding-right: 1.8rem;
 }
 
+#bara-en-till {
+  margin: 25vh 0 1rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+#bara-en-till h2 {
+  margin-bottom: 0;
+}
+
+#bara-en-till h2 + p {
+  margin-top: 2px;
+  font-size: 1.1rem;
+  max-width: 100%;
+}
+
+#bara-en-till ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#bara-en-till li {
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-right: 4px;
+}
+
 #calendar, #hackathons {
   font-size: 180%!important;
 }
@@ -27,7 +56,7 @@ p {
 
 @media screen and (max-device-width: 600px) {
 
-  h1 {
+   {
     margin: 13vh 0 0
   }
 
@@ -72,7 +101,7 @@ p {
     font-size: 1rem;
   }
 
-  h1 {
+  #page-index header {
     position: absolute;
     top: 0;
     left: 0;
@@ -81,10 +110,22 @@ p {
     background: #111;
     margin: 0;
     color: #fff;
-    text-align: center;
-    line-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 4vw;
     box-sizing: border-box;
+  }
+
+  #page-index header h1 {
+    margin-bottom: 0;
+  }
+
+  #page-index header h2 {
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: 300;
   }
 
   #thegrid {
