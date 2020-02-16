@@ -35,15 +35,14 @@ countVisits();
   </header>
 
   <div id="calendar">
-    <input type="checkbox" value="ticket"> <label>biljettsläpp</label>
-    <input type="checkbox" value="call-for-papers"> <label>call for papers</label>
+    <input type="checkbox" value="call-for-papers" id="filter-call-for-papers"> <label for="filter-call-for-papers">call for papers</label>
     <input type="checkbox" value="hackathon" id="filter-hackathon"> <label for="filter-hackathon">hackathon 👩🏽‍💻</label>
-    <input type="checkbox" value="conference"> <label>konferens</label>
-    <input type="checkbox" value="meetup"> <label>meetup</label>
+    <input type="checkbox" value="conference" id="filter-conference"> <label for="filter-conference">konferens</label>
+    <input type="checkbox" value="meetup" id="filter-meetup"> <label for="filter-meetup">meetup</label>
 
     <br><br><br>
 
-    <div class="calendar-item">
+    <div class="calendar-item" data-type="call-for-papers">
       <h2>foss-north 2020 Call for papers deadline</h2>
       <p>9 februari 2020</p>
       <p class="tags">talare, open source, foss, Göteborg, deadline</p>

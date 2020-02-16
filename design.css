@@ -42,8 +42,26 @@ body {
   margin-bottom: 6px;
 }
 
-#filter-hackathon:checked ~ .calendar-item:not([data-type*="hackathon"]) {
+
+
+input:checked ~ .calendar-item {
   display: none;
+}
+
+#filter-call-for-papers:checked ~ .calendar-item[data-type*="call-for-papers"] {
+  display: block;
+}
+
+#filter-hackathon:checked ~ .calendar-item[data-type*="hackathon"] {
+  display: block;
+}
+
+#filter-conference:checked ~ .calendar-item[data-type*="conference"] {
+  display: block;
+}
+
+#filter-meetup:checked ~ .calendar-item[data-type*="meetup"] {
+  display: block;
 }
 
 .calendar-item {
