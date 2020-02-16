@@ -22,6 +22,26 @@ body {
   letter-spacing: -.04rem;
 }
 
+#calendar input[type=checkbox] {
+  display: none;
+}
+
+#calendar input:checked + label:before {
+  content: "☑️ ";
+}
+
+#calendar input + label:before {
+  content: "🔲 ";
+}
+
+#calendar label {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  display: inline-block;
+  margin-right: 11px;
+  margin-bottom: 6px;
+}
+
 #filter-hackathon:checked ~ .calendar-item:not([data-type*="hackathon"]) {
   display: none;
 }
@@ -39,6 +59,17 @@ p {
   max-width: 42rem;
   font-size: 1.3rem;
   line-height: 130%;
+}
+
+#page-index-returning-visitor header {
+  display: none
+}
+
+#page-index-returning-visitor #calendar {
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13vh;
 }
 
 @media screen and (max-device-width: 600px) {
@@ -65,13 +96,13 @@ p {
     text-decoration: underline;
   }
 
-  body {
+  #page-index {
     margin-top: 110vh;
     padding-bottom: 5vh;
     padding-right: 55vw;
   }
 
-  #calendar {
+  #page-index #calendar {
     position: absolute;
     top: 0;
     right: 0;
