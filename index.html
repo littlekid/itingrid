@@ -11,6 +11,24 @@
 </head>
 <body id="page-index">
 
+<script>
+function countVisits() {
+  localCount = localStorage.getItem("nPreviousVisits");
+  if (localCount == null || localCount == "null"){
+    count = 0;
+  } else {
+    count = parseInt(localCount);
+  }
+  count++;
+  if(count > 3){
+   document.body.id += "-returning-visitor";
+  }
+  localStorage.setItem("nPreviousVisits", count);
+  console.log(count);
+}
+countVisits();
+</script>
+
   <header>
     <h1>Ingrid</h1>
     <h2>Sveriges IT-kalender</h2>
@@ -19,7 +37,6 @@
   <div id="calendar">
     <input type="checkbox" value="ticket"> <label>biljettsläpp</label>
     <input type="checkbox" value="call-for-papers"> <label>call for papers</label>
-    <input type="checkbox" value="deadline"> <label>deadline</label>
     <input type="checkbox" value="hackathon" id="filter-hackathon"> <label for="filter-hackathon">hackathon 👩🏽‍💻</label>
     <input type="checkbox" value="conference"> <label>konferens</label>
     <input type="checkbox" value="meetup"> <label>meetup</label>
@@ -120,6 +137,5 @@
   <div id="contribute">
     <p>Du kan också bidra till denna hemsida genom att <a href="mailto:victoria@kodkurs.se">skicka in förslag</a> eller själv <a href="https://github.com/littlekid/itingrid" target="_blank">lägga till innehåll (gör en pull request) → </a>.</p>
   </div>
-
 </body>
 </html>
