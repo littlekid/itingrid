@@ -42,15 +42,26 @@ countVisits();
 
     <br><br><br>
 
-    <div class="calendar-item" data-type="call-for-papers">
-      <h2>foss-north 2020 Call for papers deadline</h2>
-      <p>9 februari 2020</p>
-      <p class="tags">talare, open source, foss, Göteborg, deadline</p>
-      <h3>Do you want to share something about free and open source software, development methodologies, or other relevant topics? If so, we would love to hear about it!</h3>
-      <p>You can submit your papers until February 9, and the final program will be announced in the end of February.</p>
-      <p>Our sessions slots are 60 and 30 minutes, with 45 and 20 minutes presentation time respectively, and the remaining time for Q&A and switching speakers.</p>
-      <p><a href="https://foss-north.se/events/2020/callforpapers/" target="_blank">Läs mer på foss-north.se</a></p>
-    </div>
+    <?php
+      $events_json = file_get_contents("calendar-items.json");
+      $calendar_events = json_decode($events_json);
+      $items = "";
+      foreach ($calendar_events as $event_item) {
+        $items .= '<div class="calendar-item" data-type="' . $event_item->category . '">';
+        $items .= "<h2>" . $event_item->headline . "</h2>";
+        $items .= "<p>" . $event_item->date . "</p>";
+        $items .= '<p class="tags">'.$event_item->tags.'</p>';
+        $items .= '<h3>'.$event_item->description_headline.'</h3>';
+        $items .= '<p>'.$event_item->description_first.'</p>';
+        $items .= '<p>'.$event_item->description_second.'</p>';
+        $items .= '<p><a href="'.$event_item->link.'" target="_blank">'.$event_item->link_text.'</a></p>';
+        $items .= '</div>';
+      }
+      echo $items;
+    ?>
+
+
+      <p></p>
 
     <div class="calendar-item" data-type="hackathon">
       <h2>Hack the pressure</h2>
