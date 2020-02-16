@@ -2,24 +2,12 @@
 # Ingrid - en [kalender för IT-Sverige](https://itingrid.se).
 [itingrid.se]( https://itingrid.se )
 
-
-* Anslagstavla (arbete pågår (wip (work in progress)))
-* Hackathons
-* Kalender
-* Personer - läs om intressanta personer som gör bra saker. Du som frilansar kan också visa upp dig här!
-* Öppna data - upptäck öppna data som myndigheter tillgängliggjort 
-
-... och lite till!
-(visa upp dina hobbyprojekt och läs om andras hobbyprojekt!, platser (t.ex.kontorshotell och startup-hubbar), länkar till forum, grupper, utbildningar och tips på resurser) 
-
-<br>
-
 ## Kalender
 * Hackathons
 * Konferenser
+* meetups
 * Deadlines för "call for papers" (skicka in förslag till evenemang för att tala där!)
 * Deadlines för ansökningar
-* Biljettsläpp
 
 <br>
 
