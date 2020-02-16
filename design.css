@@ -90,6 +90,10 @@ p {
   padding-top: 13vh;
 }
 
+#page-index-returning-visitor #hello-reason {
+  display: none;
+}
+
 @media screen and (max-device-width: 600px) {
 
    {
