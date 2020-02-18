@@ -10,6 +10,7 @@ AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css a
    RewriteEngine On
 
    # Statiska sidor
+   RewriteRule ^(Göteborg|Lund|Luleå|Jönköping|Malmö|Piteå|Skane|Skåne|Stockholm|Uppsala)/?$      /?location=$1 [NC,L] 
    RewriteRule ^forum/?$         /forum.html  [NC,L]
    RewriteRule ^frilansare/?$    /frilansare.html  [NC,L]
    RewriteRule ^grupper/?$       /grupper.html  [NC,L]
