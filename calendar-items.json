@@ -8,7 +8,8 @@
     "description_first":"You can submit your papers until February 9, and the final program will be announced in the end of February.",
     "description_second":"Our sessions slots are 60 and 30 minutes, with 45 and 20 minutes presentation time respectively, and the remaining time for Q&A and switching speakers.",
     "link":"https://foss-north.se/events/2020/callforpapers",
-    "link_text":"Läs mer på foss-north.se"
+    "link_text":"Läs mer på foss-north.se",
+    "location":"Göteborg"
   },
   {
     "headline":"Hack the pressure",
@@ -37,7 +38,17 @@
     "link":"https://service.lund.se/KF_80",
     "link_text":"Anmälan",
     "link2":"https://www.lund.se/naturskolan/nyheter-och-nyhetsarkiv/2020/klimathack-lund-2-mars",
-    "link_text2":"Läs mer"
+    "link_text2":"Läs mer",
+    "location":"Lund"
+  },
+  {
+    "headline":"Hackathons and APIs",
+    "category":"meetup",
+    "date":"2020-03-03",
+    "description_first":"Welcome to an evening about Hackathons and Internet APIs! There will be two broad talks by experienced people on these subjects and the usual chance to network with local tech people in Uppsala.",
+    "location":"Uppsala, at IP-Only",
+    "link":"https://www.meetup.com/Uppsala-Tech-Meetup/events/268774766/",
+    "link_text":"Läs mer"
   },
   {
     "headline":"Nördreaktorn",
