@@ -108,5 +108,14 @@
     "location":"Stockholm",
     "link":"https://www.eventbrite.co.uk/e/code-beam-sto-2020-tickets-90357035325",
     "link_text":"Läs mer"
+  },
+  {
+    "headline":"Internetdagarna",
+    "category":"conference",
+    "date":"2020-11-23",
+    "end-date":"2020-11-24",
+    "location":"Stockholm",
+    "link":"https://internetdagarna.se/",
+    "link_text":"Läs mer"
   }
 ]
