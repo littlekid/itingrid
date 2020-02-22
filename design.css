@@ -56,6 +56,10 @@ input:checked ~ .calendar-item {
   display: block;
 }
 
+#label-filter-hackathon:after {
+  content: " 👩🏽‍💻"
+}
+
 #filter-hackathon:checked ~ .calendar-item[data-type*="hackathon"] {
   display: block;
 }
@@ -100,8 +104,27 @@ p {
 
 @media screen and (max-device-width: 600px) {
 
-   {
-    margin: 13vh 0 0
+  a {
+    color: #fff;
+  }
+
+  body {
+    margin: 0;
+    background: #111;
+    color: #fff;
+    padding: 1.8rem;
+  }
+
+  #label-filter-hackathon:after {
+    font-size: 150%;
+  }
+
+  #page-index-returning-visitor #calendar {
+    padding-top: 0;
+  }
+
+  #calendar label {
+    display: block;
   }
 
   #contribute {
