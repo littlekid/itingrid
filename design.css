@@ -115,12 +115,20 @@ p {
     padding: 1.8rem;
   }
 
+  header {
+    text-align: center;
+  }
+
   #label-filter-hackathon:after {
     font-size: 150%;
   }
 
-  #page-index-returning-visitor #calendar {
-    padding-top: 0;
+  #calendar h2 {
+    cursor: pointer;
+  }
+
+  #calendar h2 + p + .tags {
+    color: #eee;
   }
 
   #calendar label {
@@ -133,6 +141,11 @@ p {
     border-bottom: 1px solid #ccc;
     padding: .5rem 0;
   }
+
+  #page-index-returning-visitor #calendar {
+    padding-top: 0;
+  }
+
 }
 
 @media screen and (min-device-width: 800px) and (min-width: 1284px) and (min-height: 440px) {
