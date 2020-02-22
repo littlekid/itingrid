@@ -25,6 +25,19 @@
     "location":"Piteå"
   },
   {
+    "headline":"Luleå Space Hack",
+    "category":"hackathon",
+    "date":"2020-02-21",
+    "enddate":"2020-02-22",
+    "tags":"hackathon, rymden, data",
+    "description_headline":"",
+    "description_first":"Part 1 of this challenge is to use the Swedish satellite data (provided through ODC) to train a model that is able to estimate certain statistics for an occluded area based on the information from the surrounding area, as reliably and accurately as possible.",
+    "description_second":"Part 2 of this challenge is to develop a viable business case for the solution developed or from techniques utilized to develop the solution. Team will be provided a framework to follow for this aspect of the challenge.",
+    "link":"https://www.ltu.se/org/srt/Space-Data-Hackathon-2020-1.195142?l=en",
+    "link_text":"Läs mer",
+    "location":"Luleå"
+  },
+  {
     "headline":"Cirkulär ekonommi",
     "category":"hackathon",
     "date":"2020-03-02",
