@@ -130,6 +130,18 @@
     "link_text":"Läs mer"
   },
   {
+    "headline":"Agila Sverige",
+    "category":"conference",
+    "date":"2020-06-04",
+    "enddate":"2020-06-05",
+    "tags":"agilt",
+    "description_first":"Agila Sverige är en konferens för alla som är intresserade av agila metoder och vill lära sig mer om hur man gör systemutveckling effektivare, roligare och mer värdeskapande.",
+    "description_second":" Här skapar vi under två dagar en mötesplats där deltagarna samlas för att utbyta erfarenheter, kunskaper och idéer med varandra. Du kan komma till Agila Sverige som nybörjare eller erfaren, som programmerare eller chef. Det enda de andra konferensdeltagarna förväntar sig är att du beredd att dela med dina erfarenheter.",
+    "link":"https://agilasverige.se/",
+    "link_text":"Läs mer",
+    "location":"Stockholm"
+  },
+  {
     "headline":"Internetdagarna",
     "category":"conference",
     "date":"2020-11-23",
