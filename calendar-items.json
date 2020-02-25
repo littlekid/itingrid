@@ -1,43 +1,5 @@
 [
   {
-    "headline":"foss-north 2020 Call for papers deadline",
-    "category":"call-for-papers",
-    "date":"2020-02-09",
-    "tags":"talare, open source, foss, Göteborg, deadline",
-    "description_headline":"Do you want to share something about free and open source software, development methodologies, or other relevant topics? If so, we would love to hear about it!",
-    "description_first":"You can submit your papers until February 9, and the final program will be announced in the end of February.",
-    "description_second":"Our sessions slots are 60 and 30 minutes, with 45 and 20 minutes presentation time respectively, and the remaining time for Q&A and switching speakers.",
-    "link":"https://foss-north.se/events/2020/callforpapers",
-    "link_text":"Läs mer på foss-north.se",
-    "location":"Göteborg"
-  },
-  {
-    "headline":"Hack the pressure",
-    "category":"hackathon",
-    "date":"2020-02-15",
-    "tags":"hackathon, mental hälsa, hårdvara, stress, lugn, livspusslet",
-    "description_headline":"Hur kan vi genom innovation motverka kronisk stress och utbrändhet?",
-    "description_first":"Är du en kreativ problemlösare eller tycker du om kodning? Har du en passion för att utforska, experimentera och skapa prototyper för att hitta de bästa lösningarna? Om svaret på dessa frågor är ja, är detta eventet för dig!",
-    "description_second":"Årets utmaning fokuserar på innovationer som motverkar kronisk stress och utbrändhet. Under det senaste decenniet har utbrändhet ökat och idag handlar var femte sjukskrivning om stress. I åldern 25-29 år har sjukantalet gått upp med 144% under de senaste sju åren.",
-    "description_third":"Tiden är knapp och bästa lösningarna belönas med presentkort på totalt 5000 kr. Bästa idé vinner 2500 kr och bästa tech-lösning 2500 kr.",
-    "link":"https://morehack.se/#/apply/",
-    "link_text":"Anmälan",
-    "location":"Piteå"
-  },
-  {
-    "headline":"Luleå Space Hack",
-    "category":"hackathon",
-    "date":"2020-02-21",
-    "enddate":"2020-02-22",
-    "tags":"hackathon, rymden, data",
-    "description_headline":"",
-    "description_first":"Part 1 of this challenge is to use the Swedish satellite data (provided through ODC) to train a model that is able to estimate certain statistics for an occluded area based on the information from the surrounding area, as reliably and accurately as possible.",
-    "description_second":"Part 2 of this challenge is to develop a viable business case for the solution developed or from techniques utilized to develop the solution. Team will be provided a framework to follow for this aspect of the challenge.",
-    "link":"https://www.ltu.se/org/srt/Space-Data-Hackathon-2020-1.195142?l=en",
-    "link_text":"Läs mer",
-    "location":"Luleå"
-  },
-  {
     "headline":"Cirkulär ekonommi",
     "category":"hackathon",
     "date":"2020-03-02",
@@ -73,6 +35,21 @@
     "location":"Jönköping",
     "link":"https://nördreaktorn.se",
     "link_text":"Läs mer"
+  },
+  {
+    "headline":"Klimathack #4",
+    "category":"hackathon",
+    "date":"2020-03-22",
+    "tags":"mini-hack",
+    "description_headline":"Ett hackathon med fokus på klimatkrisen",
+    "description_first":"Hacket fokuserar på information om klimatkrisen: vad är det här med klimatförändringar, varför är det en kris, hur bråttom är det och hur påverkar detta mig som bor i Sverige?",
+    "description_second":"Varje lag väljer en målgrupp och strävar efter att skapa information som når fram till denna målgrupp. Hela hacket fokuserar på detta och på slutet får lagen chans att visa upp sina alster.",
+    "description_third":"Rent konkret kan det handla om exempelvis: infographics, ett utskriftsbart informationsblad, en informationskampanj för ditt närområde, en interaktiv hemsida for att beräkna en persons koldioxidutsläpp, ett mobilspel, eller varför inte en VR-app som simulerar olika scenarion?",
+    "description_fourth":"Fokusera på målgruppen och fundera på vilken typ av information målgruppen är mottaglig för. Nyckeln till information som är välkommunicerad är oftast att skala av och hålla sig till det centrala. Det är lätt att skriva något långt men svårare att formulera samma sak kortfattat.",
+    "description_fifth":"Det viktiga är en genuin vilja att göra skillnad. Resten löser sig på hacket!",
+    "link":"https://klimathack.se/",
+    "link_text":"Läs mer",
+    "location":"Stockholm"
   },
   {
     "headline":"Foss North",
