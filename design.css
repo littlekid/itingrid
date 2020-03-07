@@ -3,10 +3,13 @@
 body {
   padding-left: 1.8rem;
   padding-right: 1.8rem;
+  background: #111;
+  color: #fff;
 }
 
 #calendar h2 {
   margin-bottom: 2px;
+  display: inline;
 }
 
 #calendar h2 + p {
@@ -17,7 +20,7 @@ body {
 #calendar h2 + p + .tags {
   margin-top: 2px;
   font-size: 100%;
-  color: #333;
+  color: #eee;
   font-family: monospace;
   letter-spacing: -.04rem;
 }
@@ -28,10 +31,29 @@ body {
 
 #calendar input:checked + label:before {
   content: "☑️ ";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+details { display: inline-block; }
+
+#filter-hackathon:checked  ~ #filter #label-filter-hackathon:before,
+#filter-conference:checked ~ #filter #label-filter-conference:before,
+#filter-meetup:checked     ~ #filter #label-filter-meetup:before {
+  content: "☑️ ";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#filter label {
+  padding: .3rem 0 .3rem 1.5rem;
+  position: relative;
 }
 
 #calendar input + label:before {
-  content: "🔲 ";
+  content: "  ";
 }
 
 #calendar label {
@@ -46,8 +68,6 @@ body {
   content: " ";
 }
 
-
-
 input:checked ~ .calendar-item {
   display: none;
 }
@@ -57,7 +77,11 @@ input:checked ~ .calendar-item {
 }
 
 #label-filter-hackathon:after {
-  content: " 👩🏽‍💻"
+  content: " 👩🏽‍💻";
+  position: absolute;
+  top: -2px;
+  padding-left: 4px;
+  font-size: 130%;
 }
 
 #filter-hackathon:checked ~ .calendar-item[data-type*="hackathon"] {
@@ -73,7 +97,7 @@ input:checked ~ .calendar-item {
 }
 
 .calendar-item {
-  margin-bottom: calc(2rem + 5vh);
+  margin-bottom: calc(1.3rem + 3vh);
 }
 
 #hello-reason {
@@ -91,16 +115,14 @@ p {
   display: none
 }
 
-#page-index-returning-visitor #calendar {
-  max-width: 560px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 13vh;
-}
-
 #page-index-returning-visitor #hello-reason {
   display: none;
 }
+
+summary {
+  cursor: pointer;
+}
+
 
 @media screen and (max-device-width: 600px) {
 
@@ -137,9 +159,7 @@ p {
 
   #contribute {
     margin: 5rem 0 2rem;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    padding: .5rem 0;
+    padding: .1rem 0;
   }
 
   #page-index-returning-visitor #calendar {
@@ -158,16 +178,13 @@ p {
     text-decoration: underline;
   }
 
+  body { padding-left: 300px; }
+
   #page-index {
-    margin-top: 110vh;
     padding-bottom: 5vh;
-    padding-right: 55vw;
   }
 
   #page-index #calendar {
-    position: absolute;
-    top: 0;
-    right: 0;
     width: 55vw;
     box-sizing: border-box;
     padding: 2rem;
@@ -183,25 +200,26 @@ p {
     font-size: 1rem;
   }
 
-  #page-index header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 45vw;
-    height: 100vh;
-    background: #111;
-    margin: 0;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 4vw;
-    box-sizing: border-box;
+  #filter {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
   }
 
+  #filter label {
+    display: block;
+    margin-bottom: 7px;
+    cursor: pointer;
+  }
+
+  #page-index header {
+    margin-left: -300px;
+    text-align: center;
+    padding-top: 13vh
+  }
   #page-index header h1 {
     margin-bottom: 0;
+    font-size: 4vw;
   }
 
   #page-index header h2 {
