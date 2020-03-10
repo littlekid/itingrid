@@ -30,6 +30,15 @@
     "link_text":"Läs mer"
   },
   {
+    "headline":"Stockholm Rust Meetup",
+    "date":"2020-04-02",
+    "tags":"meetup, rust",
+    "description_first":"Meet other Rust enthusiasts and learn more about the latest developments of the language.",
+    "location":"Stockholm",
+    "link":"https://www.goto10.se/evenemang/stockholm-rust-meetup/",
+    "link_text":"Register for free"
+  },
+  {
     "headline":"Sweden Demo Day",
     "date":"2020-04-02",
     "tags":"startups, demo, idéer, stort, hitta nya användare, träffa investerare",
