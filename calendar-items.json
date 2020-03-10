@@ -20,6 +20,21 @@
     "link_text":"Läs mer"
   },
   {
+    "headline":"Klimathack #4",
+    "category":"hackathon",
+    "date":"2020-03-22",
+    "tags":"mini-hack",
+    "description_headline":"Ett hackathon med fokus på klimatkrisen",
+    "description_first":"Hacket fokuserar på information om klimatkrisen: vad är det här med klimatförändringar, varför är det en kris, hur bråttom är det och hur påverkar detta mig som bor i Sverige?",
+    "description_second":"Varje lag väljer en målgrupp och strävar efter att skapa information som når fram till denna målgrupp. Hela hacket fokuserar på detta och på slutet får lagen chans att visa upp sina alster.",
+    "description_third":"Rent konkret kan det handla om exempelvis: infographics, ett utskriftsbart informationsblad, en informationskampanj för ditt närområde, en interaktiv hemsida for att beräkna en persons koldioxidutsläpp, ett mobilspel, eller varför inte en VR-app som simulerar olika scenarion?",
+    "description_fourth":"Fokusera på målgruppen och fundera på vilken typ av information målgruppen är mottaglig för. Nyckeln till information som är välkommunicerad är oftast att skala av och hålla sig till det centrala. Det är lätt att skriva något långt men svårare att formulera samma sak kortfattat.",
+    "description_fifth":"Det viktiga är en genuin vilja att göra skillnad. Resten löser sig på hacket!",
+    "link":"https://klimathack.se/",
+    "link_text":"Läs mer",
+    "location":"Stockholm"
+  },
+  {
     "headline":"Foss North",
     "category":"conference",
     "date":"2020-03-29",
