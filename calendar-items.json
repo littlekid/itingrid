@@ -20,6 +20,19 @@
     "link_text":"Läs mer"
   },
   {
+    "headline":"What wood you do",
+    "category":"conference",
+    "date":"2020-03-16",
+    "enddate":"2020-04-27",
+    "description_first":"1:a pris: €25 000, möjlig plats hos inkubatorn Sting Bioeconomy",
+    "description_second":"Den 16 mars startar Paper Province en internationell tävling med fokus på idéer som stärker och utvecklar den skogsbaserade bioekonomin. Det kan handla om idéer till produkter gjorda av skogsråvara, affärsmodeller, tekniker, tjänster inom nya och befintliga värdekedjor eller något som vi inte ens kunnat drömma om. Tävlingen är öppen i sex veckor, mellan den 16 mars till den 27 april. Under hela tävlingstiden kan du lämna bidrag och få reaktioner på din idé av andra tävlande.",
+    "description_third":"Paper Province utlyser tävlingen tillsammans med Gunnar Sundblads Forskningsfond, Stora Enso och Sveaskog. Vinnaren får 25 000 euro för att utveckla sin idé, medan andra till femte plats belönas med 2 500 euro var.",
+    "description_fourth":"Så går det till: Du delar med dig av din ide på vår tävlingswebb. Efter avslutad tävling väljs fem idéer med högst potential ut. Finalisterna bjuds till Värmland den 3-4 juni för ett 48 timmars hackaton. Där får du finslipa din idé, presentera den för en expertjury och träffa investerare, företagsledare och potentiella kunder. Paper Province står för kostnaderna för resa och boende.",
+    "location":"Online, och sedan Värmland",
+    "link":"https://paperprovince.com/forverkliga-din-ide-och-vinn-25-000-euro/",
+    "link_text":"Arrangör: Paper utlyser tävlingen tillsammans med Gunnar Sundblads Forskningsfond, Stora Enso och Sveaskog"
+  },
+  {
     "headline":"Klimathack #4",
     "category":"hackathon",
     "date":"2020-03-22",
