@@ -53,5 +53,38 @@
     "link2":"https://www.lund.se/naturskolan/nyheter-och-nyhetsarkiv/2020/klimathack-lund-2-mars",
     "link_text2":"Läs mer",
     "location":"Lund"
+  },
+  {
+    "headline":"Hackathons and APIs",
+    "category":"meetup",
+    "date":"2020-03-03",
+    "description_first":"Welcome to an evening about Hackathons and Internet APIs! There will be two broad talks by experienced people on these subjects and the usual chance to network with local tech people in Uppsala.",
+    "location":"Uppsala, at IP-Only",
+    "link":"https://www.meetup.com/Uppsala-Tech-Meetup/events/268774766/",
+    "link_text":"Läs mer"
+  },
+  {
+    "headline":"Nördreaktorn",
+    "category":"conference",
+    "date":"2020-03-14",
+    "description_first":"Pris: 295kr (frukost &amp; lunch ingår)",
+    "description_second":"Fem talare. Rubriker: AI, Robotics, Blockchain, Machine learning, Kubernetes.",
+    "description_third":"Blockchain: Saga kommer att berätta om olika projekt där hon använt blockchain, bland annat inom musikbranschen och inspirera dig till att komma igång med blockchain. Det finns fler möjligheter än bara crypto-currency till att använda blockchain, en distribuerad databas i ett peer-to-peer nätverk, för att enkelt beskriva begreppet.",
+    "location":"Jönköping",
+    "link":"https://nördreaktorn.se",
+    "link_text":"Läs mer"
+  },
+  {
+    "headline":"What wood you do",
+    "category":"conference",
+    "date":"2020-03-16",
+    "enddate":"2020-04-27",
+    "description_first":"1:a pris: €25 000, möjlig plats hos inkubatorn Sting Bioeconomy",
+    "description_second":"Den 16 mars startar Paper Province en internationell tävling med fokus på idéer som stärker och utvecklar den skogsbaserade bioekonomin. Det kan handla om idéer till produkter gjorda av skogsråvara, affärsmodeller, tekniker, tjänster inom nya och befintliga värdekedjor eller något som vi inte ens kunnat drömma om. Tävlingen är öppen i sex veckor, mellan den 16 mars till den 27 april. Under hela tävlingstiden kan du lämna bidrag och få reaktioner på din idé av andra tävlande.",
+    "description_third":"Paper Province utlyser tävlingen tillsammans med Gunnar Sundblads Forskningsfond, Stora Enso och Sveaskog. Vinnaren får 25 000 euro för att utveckla sin idé, medan andra till femte plats belönas med 2 500 euro var.",
+    "description_fourth":"Så går det till: Du delar med dig av din ide på vår tävlingswebb. Efter avslutad tävling väljs fem idéer med högst potential ut. Finalisterna bjuds till Värmland den 3-4 juni för ett 48 timmars hackaton. Där får du finslipa din idé, presentera den för en expertjury och träffa investerare, företagsledare och potentiella kunder. Paper Province står för kostnaderna för resa och boende.",
+    "location":"Online, och sedan Värmland",
+    "link":"https://paperprovince.com/forverkliga-din-ide-och-vinn-25-000-euro/",
+    "link_text":"Arrangör: Paper utlyser tävlingen tillsammans med Gunnar Sundblads Forskningsfond, Stora Enso och Sveaskog"
   }
 ]
