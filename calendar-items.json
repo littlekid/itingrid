@@ -110,5 +110,15 @@
     "location":"Stockholm",
     "link":"https://internetdagarna.se/",
     "link_text":"Läs mer"
+  },
+  {
+    "headline":"Considition",
+    "category":"hackathon",
+    "date":"2021-10-14",
+    "end-date":"2021-10-14",
+    "description_first":"We are proud to present Considition 2021 in collaboration with Budbee! Budbee is a Sweden-based tech company aiming to create the best and most sustainable e-commerce experience from check-out to delivery. This year's challenge is all about developing solutions for the future of urban logistics - with intelligent algorithms! Enter this year's challenge today and compete on October 14th to get the chance to win an extraordinary weekend in the U.S. filled with tech, food and joy.",
+    "location":"Multiple locations",
+    "link":"https://considition.com/",
+    "link_text":"Läs mer"
   }
 ]
