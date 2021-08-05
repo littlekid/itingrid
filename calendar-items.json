@@ -1,117 +1,5 @@
 [
   {
-    "headline":"Klimathack #4",
-    "category":"hackathon",
-    "date":"2020-03-22",
-    "tags":"mini-hack",
-    "description_headline":"Ett hackathon med fokus på klimatkrisen",
-    "description_first":"Hacket fokuserar på information om klimatkrisen: vad är det här med klimatförändringar, varför är det en kris, hur bråttom är det och hur påverkar detta mig som bor i Sverige?",
-    "description_second":"Varje lag väljer en målgrupp och strävar efter att skapa information som når fram till denna målgrupp. Hela hacket fokuserar på detta och på slutet får lagen chans att visa upp sina alster.",
-    "description_third":"Rent konkret kan det handla om exempelvis: infographics, ett utskriftsbart informationsblad, en informationskampanj för ditt närområde, en interaktiv hemsida for att beräkna en persons koldioxidutsläpp, ett mobilspel, eller varför inte en VR-app som simulerar olika scenarion?",
-    "description_fourth":"Fokusera på målgruppen och fundera på vilken typ av information målgruppen är mottaglig för. Nyckeln till information som är välkommunicerad är oftast att skala av och hålla sig till det centrala. Det är lätt att skriva något långt men svårare att formulera samma sak kortfattat.",
-    "description_fifth":"Det viktiga är en genuin vilja att göra skillnad. Resten löser sig på hacket!",
-    "link":"https://klimathack.se/",
-    "link_text":"Läs mer",
-    "location":"Stockholm"
-  },
-  {
-    "headline":"Foss North",
-    "category":"conference",
-    "date":"2020-03-29",
-    "end-date":"2020-04-01",
-    "description_first":"foss-north is a free / open source conference covering both software and hardware from the technical perspective. We provide a meeting place for the Nordic foss communities and will bring together great speakers with great audiences. We are constantly looking for partners, speakers, sponsors, and events around FOSS in the Nordic region. If you want to be listed here, please contact us at info -at- foss-gbg.se.",
-    "location":"Göteborg",
-    "link":"https://foss-north.se/2020/index.html",
-    "link_text":"Läs mer"
-  },
-  {
-    "headline":"Stockholm Rust Meetup",
-    "date":"2020-04-02",
-    "tags":"meetup, rust",
-    "description_first":"Meet other Rust enthusiasts and learn more about the latest developments of the language.",
-    "location":"Stockholm",
-    "link":"https://www.goto10.se/evenemang/stockholm-rust-meetup/",
-    "link_text":"Register for free"
-  },
-  {
-    "headline":"Sweden Demo Day",
-    "date":"2020-04-02",
-    "tags":"startups, demo, idéer, stort, hitta nya användare, träffa investerare",
-    "description_headline":"Visa upp din nya affärsidé!",
-    "description_first":"Är du en kreativ problemlösare och har kommit på en fantastiskt bra lösning för något?",
-    "description_second":"Kom och visa upp den på Sweden Demo Day! Du får en 1m*2m stor yta att skriva på (eller sätta upp färdiga lappar/affischer.. designa den som du vill!",
-    "description_third":"Besökare (potentiella framtida partners och medarbetare, investerare och kanske framtida ambassadörer och kunder (!) går runt och spanar in alla lösningar som presenteras!",
-    "location":"Stockholm (Stockholmsmässan)",
-    "link":"https://www.swedendemoday.com",
-    "link_text":"Mer information och anmälan"
-  },
-  {
-    "headline":"Skåne Innovation Days",
-    "date":"2020-04-15",
-    "end-date":"2020-04-16",
-    "location":"Skåne",
-    "description_first":"Region Skåne bjuder för sjunde gången in till Skåne Innovation Day – nytt för årets upplaga är att de växlar upp och utökar till två heldagar med olika koncept, mötesformat och mer fokus på interaktion och dialog. Även platsen är ny då eventet efter 4 år i Varvsstaden, landar in I Malmö, Folkets Park och blir en del av allt spännande som händer under Innocarnival Skåne.",
-    "link":"https://www.krinova.se/event/skane-innovation-days-2020",
-    "link_text":"Läs mer"
-  },
-  {
-    "headline":"Hackathon by Indiska",
-    "date":"2020-04-17",
-    "end-date":"2020-04-18",
-    "location":"Stockholm",
-    "category":"hackathon",
-    "description_first":"Indiska is hosting our first-ever hackathon on 17th -18th of April. We invite people of all ages and backgrounds to join the challenge – nerds, programmers, designers, business developers, dreamers , all are welcome!",
-    "description_second":"Innovation in technology for retailers – innovations that bring businesses and customers closer without losing the personal touch!",
-    "description_third":"Plats: Warfvet",
-    "link":"https://www.krinova.se/event/skane-innovation-days-2020",
-    "link_text":"Läs mer"
-  },
-  {
-    "headline":"Female founders 2020",
-    "date":"2020-04-28",
-    "location":"Stockholm",
-    "link":"https://event.di.se/events/100000729/female-founders-2020",
-    "link_text":"Läs mer"
-  },
-  {
-    "headline":"Stockholm tech job fair by techmeetups",
-    "date":"2020-05-28",
-    "end-date":"2020-05-29",
-    "location":"Stockholm",
-    "link":"https://www.eventbrite.co.uk/e/stockholm-tech-job-fair-spring-2020-by-techmeetups-tickets-76819987651",
-    "link_text":"Läs mer"
-  },
-  {
-    "headline":"Code BEAM STO 2020",
-    "category":"conference",
-    "date":"2020-05-28",
-    "end-date":"2020-05-29",
-    "location":"Stockholm",
-    "link":"https://www.eventbrite.co.uk/e/code-beam-sto-2020-tickets-90357035325",
-    "link_text":"Läs mer"
-  },
-  {
-    "headline":"Agila Sverige",
-    "category":"conference",
-    "date":"2020-06-04",
-    "enddate":"2020-06-05",
-    "tags":"agilt",
-    "description_first":"Agila Sverige är en konferens för alla som är intresserade av agila metoder och vill lära sig mer om hur man gör systemutveckling effektivare, roligare och mer värdeskapande.",
-    "description_second":" Här skapar vi under två dagar en mötesplats där deltagarna samlas för att utbyta erfarenheter, kunskaper och idéer med varandra. Du kan komma till Agila Sverige som nybörjare eller erfaren, som programmerare eller chef. Det enda de andra konferensdeltagarna förväntar sig är att du beredd att dela med dina erfarenheter.",
-    "link":"https://agilasverige.se/",
-    "link_text":"Läs mer",
-    "location":"Stockholm"
-  },
-  {
-    "headline":"Internetdagarna",
-    "category":"conference",
-    "date":"2020-11-23",
-    "end-date":"2020-11-24",
-    "location":"Stockholm",
-    "link":"https://internetdagarna.se/",
-    "link_text":"Läs mer"
-  },
-  {
     "headline":"Considition",
     "category":"hackathon",
     "date":"2021-10-14",
@@ -119,6 +7,15 @@
     "description_first":"We are proud to present Considition 2021 in collaboration with Budbee! Budbee is a Sweden-based tech company aiming to create the best and most sustainable e-commerce experience from check-out to delivery. This year's challenge is all about developing solutions for the future of urban logistics - with intelligent algorithms! Enter this year's challenge today and compete on October 14th to get the chance to win an extraordinary weekend in the U.S. filled with tech, food and joy.",
     "location":"Multiple locations",
     "link":"https://considition.com/",
+    "link_text":"Läs mer"
+  },
+  {
+    "headline":"Internetdagarna",
+    "category":"conference",
+    "date":"2020-11-22",
+    "end-date":"2020-11-23",
+    "location":"Stockholm",
+    "link":"https://internetdagarna.se/",
     "link_text":"Läs mer"
   }
 ]
